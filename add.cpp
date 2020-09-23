@@ -15,6 +15,7 @@ int main() {
         int sum = (s1[i]-'0') + (s2[i]-'0') + c;
         s3.push_back(sum%10 + '0');
         c=sum/10;
+        //gooba gooba
     }
     for(int i=n1; i<n2; i++)
     {
