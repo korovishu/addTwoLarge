@@ -4,10 +4,7 @@ int main() {
     string s1, s2, s3;
     cin >> s1 >> s2;
     int n1, n2;
-    if (s1.length() > s2.length()) swap(s1, s2);
-    n1=s1.length();
-    n2=s2.length();
-    reverse(s1.begin(), s1.end());
+   
     reverse(s2.begin(), s2.end());
     int c=0;
     for(int i=0; i<n1; i++)
